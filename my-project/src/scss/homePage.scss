@@ -1,0 +1,92 @@
+//HOME PAGE
+
+//First Block
+body{
+    margin: 0;
+    padding: 0;
+}
+.firstHP{
+    height: 100;
+    margin: 0;
+    padding: 0;
+   // position: relative;
+
+}
+.img-fluid {
+    //position: relative;
+    height: 300;
+  }
+  
+  /* Bottom right text */
+  .imageText {
+    position: absolute;
+    margin: auto;
+    width: 50%;
+    bottom: 20px;
+    right: 200px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+  }
+  //.servicesButton{
+    
+
+  //}
+
+  a:link{
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+  //carousel
+  #carouselExampleAutoplaying{
+    position: relative;
+    text-align: center;
+    
+  }
+  .carouselTitle{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #catalogLink{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    font-size: 20px;
+
+  }
+
+  .carousel-item{
+    height: 700px;
+  }
+  .carousel-item :active{
+    height: 700px;
+  }
+  #hat{
+    height: 100%;
+  }
+  
+  //block three
+  #reviewBlock{
+    position: relative;
+    background-color: bisque;
+    height: 500px;
+    
+  }
+  .reviewText{
+    text-align: center;
+    padding-top: 12%;
+  }
+  #catalogLink a:link{
+    text-decoration: none;
+    color:black;
+
+  }
